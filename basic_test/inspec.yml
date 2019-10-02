@@ -1,0 +1,19 @@
+name: basic_test
+title: InSpec Profile
+maintainer: The Authors
+copyright: The Authors
+copyright_email: you@example.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.1.0
+supports:
+  platform: os
+attributes:
+- name: java_version  # Java version
+  value: '1.8'
+- name: mysql_version # MySQL version
+  value: '5'
+- name: app_port       # port used to deploy app
+  value: 9191
+- name: app_path       # web path of the deployed app
+  value: 'SpringBootCRUDApp'
