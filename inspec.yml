@@ -1,4 +1,4 @@
-name: basic_test
+name: demo-app
 title: InSpec Profile
 maintainer: The Authors
 copyright: The Authors
@@ -11,9 +11,9 @@ supports:
 attributes:
 - name: java_version  # Java version
   value: '1.8'
-- name: mysql_version # MySQL version
-  value: '5'
+#- name: mysql_version # MySQL version
+#  value: '5'
+#- name: app_path       # web path of the deployed app
+#  value: 'SpringBootCRUDApp'
 - name: app_port       # port used to deploy app
-  value: 9191
-- name: app_path       # web path of the deployed app
-  value: 'SpringBootCRUDApp'
+  value: 9191  

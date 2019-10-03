@@ -4,12 +4,11 @@
 | Attribute             | Description                                                            | Default Value |
 |-----------------------|------------------------------------------------------------------------|---------------|
 | java_version       | Required Java version                                           | 1.8     |
-| mysql_version           | Required MySQL version                           | 5.x           |
 | app_port       | Port on which app is deployed                          | 9191           |
-| app_path       | Web path of the app                           | SpringBootCRUDApp           |
+
 
 ## It tests
-- Java and MySQL is installed with required version.
+- Java is installed with required version.
 - App is running on the specified port.
 
 ## How to run application
@@ -29,4 +28,4 @@ PORT: port on which app will be running.
 - Run InSpec profile with default attributes
 `inspec exec basic_test`
 - Run InSpec profile by passing attributes from external YAML file.
-`inspec exec basic_test --input-file basic_test/files/test_inputs.yml`
+`inspec exec basic_test --input-file files/test_inputs.yml`
