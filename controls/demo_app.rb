@@ -1,9 +1,10 @@
 java_version = command('bash -lc "java -version" 2>&1')
+jdk_version = attribute('java_version')
 describe 'Java version command'  do
   it "should have Java installed" do
     expect(java_version.exit_status).to(eq 0)
   end
-  it "should have required version" do
+  it "should have required version #{jdk_version}" do
     expect(java_version.stdout).to(match attribute('java_version'))
   end
 end
