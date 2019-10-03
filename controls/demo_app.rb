@@ -9,6 +9,12 @@ describe 'Java version command'  do
   end
 end
 
+describe port(attribute('app_port')) do
+  it { should be_listening }
+  its('processes') { should include 'java' }
+  its('protocols') { should include /tcp/ }
+end
+
 =begin
 mysql_version = command('bash -lc "mysql --version" 2>&1')
 describe 'MySQL version command'  do
@@ -29,9 +35,3 @@ describe http("http://localhost:#{attribute('app_port')}/#{attribute('app_path')
 end
 
 =end
-
-describe port(attribute('app_port')) do
-  it { should be_listening }
-  its('processes') { should include 'java' }
-  its('protocols') { should include /tcp/ }
-end

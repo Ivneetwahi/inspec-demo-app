@@ -1,19 +1,15 @@
 name: platform-inspec-demo-app
-title: InSpec Profile
+title: InSpec Profile for verifying Java application deployment
 maintainer: The Authors
-copyright: The Authors
-copyright_email: you@example.com
-license: Apache-2.0
-summary: An InSpec Compliance Profile
+copyright: Hitachi Vantara
+copyright_email: nilesh.padmagiriwar@gmail.com
+license: All Rights Reserved
+summary: An InSpec Compliance Profile for verifying Java application deployment
 version: 0.1.0
 supports:
   platform: os
 attributes:
 - name: java_version  # Java version
   value: '1.8'
-#- name: mysql_version # MySQL version
-#  value: '5'
-#- name: app_path       # web path of the deployed app
-#  value: 'SpringBootCRUDApp'
 - name: app_port       # port used to deploy app
   value: 9191  

@@ -29,4 +29,4 @@ PORT: port on which app will be running.
 - Run InSpec profile with default attributes
 `inspec exec platform-inspec-demo-app`
 - Run InSpec profile by passing attributes from external YAML file.
-`inspec exec platform-inspec-demo-app --input-file platform-inspec-demo-app/files/test_inputs.yml`
+`inspec exec platform-inspec-demo-app --input-file <PATH_TO_EXTERNAL_YAML_FILE>`
