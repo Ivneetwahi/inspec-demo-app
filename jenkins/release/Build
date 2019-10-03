@@ -1,0 +1,7 @@
+@Library('reanplatform') _
+
+node {
+    inspecPipelines.releaseBuild(
+        name: 'platform-inspec-demo-app'
+    )
+}
