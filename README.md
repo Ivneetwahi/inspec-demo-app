@@ -16,7 +16,7 @@
 - Make sure Java and Mysql is installed
 - DB is created with user credentials.
 - Run the app using command
-java -jar -DPORT=9191 -DDB_NAME=demo -DDB_USER=root -DDB_PWD=root@123 sampleapplication-2.0.0.jar
+`java -jar -DPORT=9191 -DDB_NAME=demo -DDB_USER=root -DDB_PWD=root@123 sampleapplication-2.0.0.jar`
 
 where,
 DB_NAME: database name.
@@ -25,8 +25,8 @@ DB_PWD: database password.
 PORT: port on which app will be running.
 
 ## How to test app
-- You can set InSpec attributes/inputs in any YAML file; and pass that YAML using --inout-file flag
+- You can set InSpec attributes/inputs in any YAML file; and pass that YAML using --input-file flag
 - Run InSpec profile with default attributes
-inspec exec basic_test
+`inspec exec basic_test`
 - Run InSpec profile by passing attributes from external YAML file.
-inspec exec basic_test --input-file basic_test/files/test_inputs.yml
+`inspec exec basic_test --input-file basic_test/files/test_inputs.yml`
