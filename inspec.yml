@@ -1,3 +1,4 @@
+---
 name: platform-inspec-demo-app
 title: InSpec Profile for verifying Java application deployment
 maintainer: The Authors
@@ -5,11 +6,11 @@ copyright: Hitachi Vantara
 copyright_email: nilesh.padmagiriwar@gmail.com
 license: All Rights Reserved
 summary: An InSpec Compliance Profile for verifying Java application deployment
-version: 0.0.1
+version: 0.0.2
 supports:
   platform: os
 attributes:
-- name: java_version  # Java version
+- name: java_version
   value: '1.8'
-- name: app_port       # port used to deploy app
-  value: 9191  
+- name: app_port
+  value: 9191
