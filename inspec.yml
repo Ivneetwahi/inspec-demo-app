@@ -6,7 +6,7 @@ copyright: Hitachi Vantara
 copyright_email: nilesh.padmagiriwar@gmail.com
 license: All Rights Reserved
 summary: An InSpec Compliance Profile for verifying Java application deployment
-version: 0.0.4
+version: 0.0.5
 supports:
   platform: os
 attributes:
