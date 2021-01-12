@@ -27,6 +27,6 @@ PORT: port on which app will be running.
 - You can set InSpec attributes/inputs in any YAML file; and pass that YAML using --input-file flag
 - To run this Inspec profile, use the command `inspec exec Profile_Path`.
 - Run InSpec profile with default attributes
-`inspec exec platform-inspec-demo-app`
+`inspec exec inspec-demo-app`
 - Run InSpec profile by passing attributes from external YAML file.
-`inspec exec platform-inspec-demo-app --input-file <PATH_TO_EXTERNAL_YAML_FILE>`
+`inspec exec inspec-demo-app --input-file <PATH_TO_EXTERNAL_YAML_FILE>`

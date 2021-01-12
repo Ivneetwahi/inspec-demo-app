@@ -2,6 +2,6 @@
 
 node {
     inspecPipelines.releaseBuild(
-        name: 'platform-inspec-demo-app'
+        name: 'inspec-demo-app'
     )
 }

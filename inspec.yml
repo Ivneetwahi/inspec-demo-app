@@ -1,5 +1,5 @@
 ---
-name: platform-inspec-demo-app
+name: inspec-demo-app
 title: InSpec Profile for verifying Java application deployment
 maintainer: The Authors
 copyright: Hitachi Vantara

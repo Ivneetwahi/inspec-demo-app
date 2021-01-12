@@ -1,7 +1,7 @@
 @Library('reanplatform') _
 
 node {
-    inspecPipelines.releaseStart(
+    inspecPipelines.hotfixBuild(
         name: 'inspec-demo-app'
     )
 }
